@@ -181,8 +181,8 @@ a:hover {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     color: var(--white);
     margin-top: 0;
     overflow: hidden;
@@ -425,6 +425,10 @@ a:hover {
 .social-links {
     display: flex;
     gap: 15px;
+}
+
+.social-link > * {
+    width: 100%;
 }
 
 .social-link {
