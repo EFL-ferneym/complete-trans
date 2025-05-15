@@ -294,6 +294,12 @@ a:hover {
     padding: 30px;
 }
 
+.service-content ul {
+    padding-left: 1.2rem;
+    margin: 0;
+    list-style-position: outside;
+}
+
 .service-content h3 {
     color: var(--navy-blue);
     width: 17vw;
